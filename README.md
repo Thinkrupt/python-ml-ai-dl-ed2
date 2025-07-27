@@ -68,3 +68,26 @@ python-ml-ai-dl-ed2/
 └── app/
     ├── main.py
     └── rag_pipeline.py
+
+
+```⚙️ Install & Setup
+
+git clone https://github.com/your-username/python-ml-ai-dl-ed2
+cd python-ml-ai-dl-ed2
+python -m venv .venv
+source .venv/bin/activate  # or .venv\Scripts\activate on Windows
+
+pip install -r requirements.txt
+cp .env.example .env
+
+You'll need API keys for:
+
+    OPENAI_API_KEY
+
+    PINECONE_API_KEY
+
+    Others depending on notebook (Chroma, HuggingFace, etc.)
+
+🚀 Run the App
+
+python app/main.py```
